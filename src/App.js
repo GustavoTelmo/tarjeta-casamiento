@@ -34,7 +34,7 @@ function App() {
       <h4>¡Hemos decidido casarnos!</h4>
       <h4>queremos que nos acompañes en este gran dia</h4>
       <h4>30-11-2024</h4>
-      <h4>¿ Cuanto Falta ? </h4>
+      <h4>Cuenta Regresiva </h4>
       <h5>☟</h5>
       <div className='countdown-container'>
         <Countdown eventDate={eventDate} />
