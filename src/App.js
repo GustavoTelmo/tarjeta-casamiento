@@ -53,7 +53,7 @@ function App() {
       <h3>Regalo </h3>
       <p>¿Nuestro mejor regalo? Que estes con nosotros este dia...Sin embargo, si deseas colaborar con dinero para
         nuestra luna de miel:</p>
-      <p style={{fontSize:'35px'}}>Alias: jorge.celeste<br/>cuenta: jorge Enrique Gonzalez <br/>Banco Balicia </p>
+      <p style={{fontSize:'35px'}}>Alias: jorge.celeste<br/> Jorge Enrique Gonzalez <br/>Banco Galicia </p>
     
       <h6>ㅗ</h6>
       <div className='elegante'>Vestimenta Elegante </div>
