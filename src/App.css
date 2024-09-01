@@ -4,7 +4,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   /* Para que la imagen no se repita */
-  margin-top: 20%;
+  margin-top: 30%;
   min-height: 100vh;
   /* Asegura que la altura mínima sea del 100% de la pantalla */
   background-size: cover;
