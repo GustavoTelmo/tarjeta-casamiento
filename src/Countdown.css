@@ -1,0 +1,48 @@
+/* Countdown.css */
+.countdown {
+    display: flex;
+    /* Usamos flexbox para alinear los elementos */
+    justify-content: center;
+    /* Centramos los elementos */
+    gap: 20px;
+    /* Espacio entre cada unidad */
+    margin-top: 20px;
+    /* Margen superior */
+    font-family: 'Courier New', Courier, monospace;
+    /* Fuente tipo reloj digital */
+}
+
+.countdown-item {
+    text-align: center;
+    /* Centrado de texto */
+    background-color: #333;
+    /* Fondo oscuro */
+    padding: 20px 10px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Sombra */
+    color: #fff;
+    /* Texto blanco */
+    width: 80px;
+    /* Ancho fijo para cada item */
+}
+
+.countdown-number {
+    font-size: 2.0rem;
+    /* Tamaño del número */
+    font-weight: bold;
+    /* Texto en negrita */
+}
+
+.countdown-label {
+    font-size: 1rem;
+    /* Tamaño de las etiquetas */
+    margin-top: 1px;
+    /* Espaciado superior */
+    display: block;
+    /* Forzamos que sea un bloque */
+    color: #ddd;
+    /* Color más claro para el texto */
+}

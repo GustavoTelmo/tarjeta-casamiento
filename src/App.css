@@ -1,0 +1,262 @@
+body {
+  background-image: url('https://i.pinimg.com/736x/74/24/68/7424681f7661636c9687c07888b66ab2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Para que la imagen no se repita */
+  margin-top: 20%;
+  min-height: 100vh;
+  /* Asegura que la altura mínima sea del 100% de la pantalla */
+  background-size: cover;
+  /* Hace que la imagen de fondo cubra toda el área */
+  background-position: center;
+  /* Centra la imagen de fondo */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Centra verticalmente el contenido */
+  align-items: center;
+  /* Centra horizontalmente el contenido */
+  padding: 20px;
+  /* Espaciado interno */
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.countdown-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.music-player,
+.rsvp-button {
+  margin: 20px 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-gallery {
+  width: 60%;
+  /* Ajusta el ancho según tus necesidades */
+  margin: 0 auto;
+  /* Centra el carrusel en la página */
+}
+
+.image-gallery img {
+  width: 100%;
+  /* Hace que las imágenes ocupen todo el ancho del carrusel */
+  height: auto;
+  /* Mantiene la proporción de la imagen */
+}
+
+.titulo {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 420%;
+  font-weight: bold;
+  text-transform: capitalize; /* Capitaliza la primera letra de cada palabra */
+  
+  
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-style: oblique;
+  /* Aplicar estilo cursivo */
+  font-weight: bold;
+  /* Para hacer las letras más gruesas */
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-size: 140%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente el contenido */
+  align-items: center;
+  /* Centra verticalmente el contenido, opcional */
+  height: 10vh;
+  /* Ocupa el 100% de la altura del viewport, opcional */
+  font-size: 20%;
+  font-weight: bold;
+  margin-top: -180px;
+  margin-bottom: 30px;
+
+}
+
+.map-container {
+
+  /* Ancho del mapa */
+  margin: 0 auto;
+  /* Centrado horizontal */
+  display: flex;
+  /* Flexbox para centrar */
+  flex-direction: column;
+  /* Dirección de la flexión para el contenido dentro */
+  align-items: center;
+  /* Centrado horizontal */
+  text-align: center;
+  /* Opcional, para centrar el texto */
+  height: 700px;
+  /* Altura predeterminada para pantallas más grandes */
+  width: 100%;
+}
+
+/* App.css */
+.rsvp-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rsvp-button button {
+  background-color: #25D366;
+  /* Color de WhatsApp */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rsvp-button button:hover {
+  background-color: #1ebe57;
+  /* Color de hover */
+
+}
+
+.button {
+  background-color: #ff6347;
+  /* Color del botón */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #e5533d;
+  /* Color al pasar el ratón */
+}
+
+
+p {
+  width: 50%;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 320px;
+  margin-top: -35px;
+  font-size: 140%;
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+  max-width: 400px;  
+  padding: 70px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+} 
+
+h5 {
+  margin-left: 580px;
+  font-size: 650%;
+  margin-top: -15px;
+}
+
+h6 {
+  font-size: 650%;
+  margin-top: -15px;
+  margin-left: 540px;
+}
+
+h3 {
+  font-size: 220%;
+  font-family: 'Dancing Script', cursive;
+  margin-top: -265px;
+  margin-left: 540px;
+}
+.elegante{
+  font-size: 220%;
+  font-family: 'Dancing Script', cursive;
+  margin-top: -275px;
+  margin-left: 480px;
+}
+
+h1,
+h4,
+p {
+  text-align: center;
+  /* Centra el texto */
+}
+
+@media (max-width: 946px) {
+  .App {
+    padding: 10px;
+  }
+
+  .map-container {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-container {
+    height: 200px;
+    /* Altura reducida para pantallas pequeñas */
+  }
+}
+
+
+@media (max-width: 480px) {
+  .App {
+    padding: 5px;
+  }
+
+  .map-container {
+    height: 200px;
+  }
+
+
+  p {
+    font-size: 0.9rem;
+  }
+}
