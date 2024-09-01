@@ -25,7 +25,7 @@ const ImageGallery = ({ images }) => {
                             src={image}
                             alt={`wedding-${index}`}
                             style={{
-                                width: '36%',  // Establecer el ancho de la imagen al 60%
+                                width: '30%',  // Establecer el ancho de la imagen al 60%
                                 height: '600px', // Ajustar la altura según sea necesario
                                 objectFit: 'cover', // Asegura que la imagen cubra el contenedor
                                 margin: '0 auto', // Centrando la imagen horizontalmente

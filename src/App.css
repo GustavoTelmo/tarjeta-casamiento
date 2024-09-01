@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-image: url('https://i.pinimg.com/736x/74/24/68/7424681f7661636c9687c07888b66ab2.jpg');
   background-size: cover;
   background-position: center;
@@ -21,7 +23,13 @@ body {
   /* Centra horizontalmente el contenido */
   padding: 20px;
   /* Espaciado interno */
+
+
 }
+
+
+
+
 
 .App {
   max-width: 1200px;
@@ -74,9 +82,10 @@ img {
   font-family: 'Dancing Script', cursive;
   font-size: 420%;
   font-weight: bold;
-  text-transform: capitalize; /* Capitaliza la primera letra de cada palabra */
-  
-  
+  text-transform: capitalize;
+  /* Capitaliza la primera letra de cada palabra */
+
+
 }
 
 h2 {
@@ -189,15 +198,15 @@ p {
   font-size: 140%;
   color: rgb(7, 7, 7);
   font-weight: bold;
-  max-width: 400px;  
+  max-width: 400px;
   padding: 70px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 
-} 
+}
 
 h5 {
-  margin-left: 580px;
+  margin-left: 20px;
   font-size: 650%;
   margin-top: -15px;
 }
@@ -205,20 +214,21 @@ h5 {
 h6 {
   font-size: 650%;
   margin-top: -15px;
-  margin-left: 540px;
+  margin-left: 20px;
 }
 
 h3 {
   font-size: 220%;
   font-family: 'Dancing Script', cursive;
   margin-top: -265px;
-  margin-left: 540px;
+  margin-left: 20px;
 }
-.elegante{
+
+.elegante {
   font-size: 220%;
   font-family: 'Dancing Script', cursive;
   margin-top: -275px;
-  margin-left: 480px;
+  margin-left: 20px;
 }
 
 h1,
@@ -227,6 +237,32 @@ p {
   text-align: center;
   /* Centra el texto */
 }
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  /* Centra las imágenes horizontalmente */
+}
+
+.image-gallery img {
+  width: calc(33.333% - 20px);
+  /* Ajusta el ancho para 3 imágenes por fila */
+  height: auto;
+  /* Mantiene la relación de aspecto de las imágenes */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  /* Limita el ancho máximo */
+  margin: 0 auto;
+  /* Centra el contenedor horizontalmente */
+  padding: 20px;
+  /* Espaciado interno */
+}
+
 
 @media (max-width: 946px) {
   .App {
@@ -239,24 +275,30 @@ p {
 }
 
 @media (max-width: 480px) {
-  .map-container {
-    height: 200px;
-    /* Altura reducida para pantallas pequeñas */
-  }
-}
-
-
-@media (max-width: 480px) {
   .App {
     padding: 5px;
+    /* Reduce el padding para pantallas pequeñas */
+    text-align: center;
+    /* Centra el texto */
   }
 
   .map-container {
     height: 200px;
+    /* Ajusta la altura del mapa para pantallas pequeñas */
   }
 
+  .image-gallery {
+    width: 100%;
+    /* Asegúrate de que la galería ocupe el ancho completo */
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
 
-  p {
-    font-size: 0.9rem;
+  .image-gallery img {
+    width: 50%;
+    /* Las imágenes ocuparán el ancho completo de la pantalla */
+    height: auto;
+    scroll-snap-align: center;
   }
 }

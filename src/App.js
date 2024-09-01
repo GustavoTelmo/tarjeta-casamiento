@@ -15,7 +15,6 @@ function App() {
     '/image/3.jpg',
     '/image/4.jpg',
     '/image/5.jpg',
-    '/image/7.jpg',
     '/image/8.jpg',
     '/image/9.jpg',
     '/image/10.jpg'
