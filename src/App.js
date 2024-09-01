@@ -23,7 +23,7 @@ function App() {
   ];
   const location = { lat: -34.68426, lng: -58.50044 };
   const location2 = { lat: -34.6761235, lng: -58.5046351 };
-  const phoneNumber = "1165358650";  // Reemplaza con tu número de teléfono
+  const phoneNumber = "5491165358650";  // Reemplaza con tu número de teléfono
   const message = "¡Hola! Quiero confirmar mi asistencia al evento. Gracias.";
 
   return (

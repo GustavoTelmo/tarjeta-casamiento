@@ -25,7 +25,7 @@
     /* Sombra */
     color: #fff;
     /* Texto blanco */
-    width: 80px;
+    width: 60px;
     /* Ancho fijo para cada item */
 }
 
@@ -38,9 +38,6 @@
 
 .countdown-label {
     font-size: 1rem;
-    /* Tamaño de las etiquetas */
-    margin-top: 1px;
-    /* Espaciado superior */
     display: block;
     /* Forzamos que sea un bloque */
     color: #ddd;
