@@ -10,6 +10,7 @@
     /* Margen superior */
     font-family: 'Courier New', Courier, monospace;
     /* Fuente tipo reloj digital */
+
 }
 
 .countdown-item {
@@ -27,6 +28,7 @@
     /* Texto blanco */
     width: 60px;
     /* Ancho fijo para cada item */
+
 }
 
 .countdown-number {
@@ -37,7 +39,7 @@
 }
 
 .countdown-label {
-    font-size: 1rem;
+    font-size: 0.8rem;
     display: block;
     /* Forzamos que sea un bloque */
     color: #ddd;
